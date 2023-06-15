@@ -3,11 +3,11 @@ import random
 #PCEP-30-02 2.2 – Perform different types of iterations
 #Bucle For
 
-"""
-    for num in range(1,10,3):
-        print(num,"Hola Mundo")
-    print("Fin del bucle")
-"""
+
+# for num in range(1,10,2):
+#     print(num,"Hola Mundo")
+# print("Fin del bucle")
+
 
 #Contadores y Acumuladores
 # c=0
@@ -30,7 +30,7 @@ import random
 # if promedio>10.5:
 #     print("Felicitaciones Usted aprobo el curso de PYTHON")
 # else:
-#     print("Us Lamentablemente debera realizar un Examen de validacion")    
+#     print("Ud Lamentablemente debera realizar un Examen de validacion")    
 # print("El Promedio General",promedio)    
 
 
@@ -49,34 +49,34 @@ import random
 # print(f"La Suma de los numeros es {suma}") 
 # print("Fin del Bucle")   
 
-# contrasena="PCEP"
-# cont=0
-# while True:
-#     con=input("Ingrese la Contraseña:")
-#     if con == contrasena:
-#         print("Contraseña Correcta")
-#         break
-#     else:
-#         print("Contraseña errada")
-#         cont +=1
-#         if cont==3:
-#             print("La Cuenta se ha Bloqueado intentelo en 24 Horas")
-#             break
+contrasena="PCEP"
+cont=0
+while True:
+    con=input("Ingrese la Contraseña:")
+    if con == contrasena:
+        print("Contraseña Correcta")
+        break #Salir del Bucle
+    else:
+        print("Contraseña errada")
+        cont +=1
+        if cont==3:
+            print("La Cuenta se ha Bloqueado intentelo en 24 Horas")
+            break
 
 #print(keyword.kwlist)
 
-numero_secreto=random.randint(1,100)
+#numero_secreto=random.randint(1,100)
 #print(numero_secreto)
 
 
-while True:
-    numero=int(input("Cual es el Numero Generado:"))
-    if numero==numero_secreto:
-        print("Genial Acertastes!!!")
-        break
-    else:
-        if numero_secreto>numero:
-            print("El Numero secreto es Mayor que {}".format(numero))
-        else:
-            print("El Numero secreto es Menor que {}".format(numero))    
-        print("No Acertastes")
+# while True:
+#     numero=int(input("Cual es el Numero Generado:"))
+#     if numero==numero_secreto:
+#         print("Genial Acertastes!!!")
+#         break
+#     else:
+#         if numero_secreto>numero:
+#             print("El Numero secreto es Mayor que {}".format(numero))
+#         else:
+#             print("El Numero secreto es Menor que {}".format(numero))    
+#         print("No Acertastes")
