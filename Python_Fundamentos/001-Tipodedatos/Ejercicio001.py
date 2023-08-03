@@ -1,9 +1,7 @@
 # todo Tipo de datos
-
 """
 Comentarios en Varias Lineas
 """
-
 curso_actual = "PYTHON"  # Str
 profesor_curso = 'Armando Ruiz'  # Str
 precio_curso = 1200.20  # Float
