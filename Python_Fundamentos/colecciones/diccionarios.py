@@ -16,6 +16,9 @@ mi_diccionario["x"]=30 #Key existe lo reemplaza cuando no lo agrega
 #Recorrer los diccionarios
 
 mi_diccionario ={"a":1,"b":2,"c":3,"d":4}
+
+print(mi_diccionario["d"])
+
 # for clave in mi_diccionario:
 #     print(clave)
 

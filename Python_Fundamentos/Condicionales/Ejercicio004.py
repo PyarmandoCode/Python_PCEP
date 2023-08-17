@@ -23,4 +23,5 @@ def msj_calificacion_case(grade):
      case _:
         return "No Existe el Grado"    
     
-print(msj_calificacion_case('C'))
+print(msj_calificacion_case('B'))
+#print(msj_calificacion("A"))

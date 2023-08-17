@@ -25,3 +25,5 @@ for elem1,elem2 in zip(mi_lista,mi_lista2):
 
 
 
+
+
